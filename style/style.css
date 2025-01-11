@@ -382,3 +382,62 @@ body{
   gap: 32px;
   align-items: start;
 }
+
+.donate-section{
+  margin-top: 80px;
+}
+
+.donate-title{
+  display: flex;
+  justify-content: center;
+  color: #0E0E0E;
+}
+
+.donate-desc{
+  text-align: center;
+  color: #0E0E0EBC;
+}
+
+.donate-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.donate{
+  padding: 40px;
+  border: 1px solid #0E0E0E26;
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 18px;
+}
+
+.donate-input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #0E0E0E26;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 32px;
+  text-align: center;
+  outline: none;
+}
+
+.donate-submit{
+  color: #ffffff;
+  padding: 17px 34px;
+  background-color: #006A50;
+  border-radius: 8px;
+  border: 1px solid #0E0E0E1A;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
