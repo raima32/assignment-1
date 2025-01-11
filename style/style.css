@@ -108,6 +108,7 @@
   
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F5F5F5;
 }
 
 .body-wrapper{
@@ -133,6 +134,12 @@ body{
     border: 1px solid #006A50;
     border-radius: 8px;
     background-color: white;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.header-btn:hover{
+  background-color: #006A50;
+  color: white;
 }
 
 .banner-wrapper{
@@ -141,6 +148,7 @@ body{
     border-radius: 24px;
     margin-top: 44px;
     display: flex;
+    justify-content: space-between;
     gap: 64px;
 
 }
@@ -169,6 +177,12 @@ body{
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.banner-btn:hover{
+  background-color: white;
+  color: #006A50;
 }
 
 .bangladesh-pillar{
@@ -192,8 +206,12 @@ body{
   border: 1px solid #0E0E0E26;
   border-radius: 16px;
   background-color: #ffffff;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
 
-
+.pillar-card:hover{
+  background-color: #C6E4D6;
 }
 
 .pillar-card-title{
@@ -238,6 +256,12 @@ body{
   background-color: #5490f533;
 }
 
+.energy-card{
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #C6E4D6;
+}
+
 .vision-card-title{
   font-weight: 700;
   font-size: 20px;
@@ -259,6 +283,12 @@ body{
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
+  transition: all 1s ease-in-out;
+}
+
+.transformation-btn:hover{
+  color: #5490f5;
+  background-color: #ffffff;
 }
 
 .energy-btn{
@@ -270,6 +300,12 @@ body{
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
+  transition: all 1s ease-in-out;
+}
+
+.energy-btn:hover{
+  color: #09A15C;
+  background-color: #ffffff;
 }
 
 .infrastructure-card{
@@ -287,6 +323,13 @@ body{
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
+  transition: all 1s ease-in-out;
+
+}
+
+.infrastructure-btn:hover{
+  color: #FFC239;
+  background-color: #ffffff;
 }
 
 .opinion-wrapper{
@@ -319,8 +362,8 @@ body{
 
 }
 
-.questions-section{
-
+.recent-news-wrapper{
+  margin-top: 80px;
 }
 
 .recent-news-title{
@@ -339,6 +382,8 @@ body{
 .news-wrapper{
   margin-top: 32px;
   padding: 48px;
+  background-color: #ffffff;
+  border-radius: 24px;
 }
 
 .news-image{
@@ -374,7 +419,14 @@ body{
   margin-top: 32px;
   border: none;
   cursor: pointer;
+  transition: all 1s ease-in-out;
 
+
+}
+
+.news-read-btn:hover{
+  background-color: #f5f5f5;
+  color: #006A50;
 }
 
 .news-satellite{
@@ -402,6 +454,7 @@ body{
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 
@@ -411,6 +464,11 @@ body{
   font-size: 40px;
   font-weight: 700;
   border-radius: 18px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.donate:hover{
+  background-color: #C6E4D6;
 }
 
 .donate-input{
@@ -434,6 +492,12 @@ body{
   font-weight: 600;
   font-size: 18px;
   cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.donate-submit:hover{
+  background-color: #ffffff;
+  color: #006A50;
 }
 
 .submit-wrapper{
@@ -476,6 +540,8 @@ body{
   outline: none;
   border: none;
   padding-left: 40px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .subscribe-btn{
@@ -488,7 +554,14 @@ body{
   border: none;
   cursor: pointer;
   padding: 17px 34px;
+  transition: all 1s ease-in-out;
 
+
+}
+
+.subscribe-btn:hover{
+  color: #006A50;
+  background-color: #f5f5f5;
 }
 
 .subscribe-promise{
@@ -515,4 +588,41 @@ footer{
   justify-content: center;
   gap: 23px;
   margin-top: 64px;
+}
+
+.quote-wrapper{
+  padding: 25px 24px 48px 24px;
+  width: 100%;
+  border: 1px solid #0E0E0E26;
+  border-radius: 16px;
+  margin-top: 32px;
+  background-color: #ffffff;
+}
+.quote{
+  background-image: url("/assets/fi_2087863.png");
+  background-repeat: no-repeat;
+  height: min-content;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0E0E0ECC;
+}
+
+.quote-paragraph{
+  padding-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0E0E0ECC;
+  padding-bottom: 20px;
+}
+
+.quote-writer{
+  font-size: 20px;
+  font-weight: 600;
+  color: #0E0E0ECC;
+
+}
+
+.writer-designation{
+  font-size: 16px;
+  color: #0E0E0E99;
 }
